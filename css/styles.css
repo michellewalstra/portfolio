@@ -82,6 +82,12 @@ a.nav-link:hover {
     box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     min-height:250px;
+    transition:all 0.3s ease;
+    cursor:pointer;
+}
+
+.cs:hover {
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.2);
 }
 
 .cs .content {
@@ -235,14 +241,14 @@ body.p-case-study .bg-white {
     text-align:left;
 }
 
-.p-case-study .c-header h1 {
+.p-case-study .p-main h1 {
     font-weight:600;
 }
 
-.p-case-study .c-header p {
+.p-case-study .p-main p {
     text-transform:uppercase;
     letter-spacing:2px;
-    margin-top:15px;
+    margin-top:17px;
     opacity:0.6;
 }
 
@@ -260,11 +266,15 @@ li + li {
 }
 
 .p-case-study div.c-problem {
-    padding-top:100px;
+    padding:70px 0;
 }
 
 .p-case-study .c-header {
     padding:80px 0 150px 0;
+}
+
+.c-addressing {
+    padding:70px 0 50px 0;
 }
 
 .p-case-study img {
@@ -294,14 +304,56 @@ li + li {
 
 .c-ui {
     padding-bottom:20px;
+    padding-top: 70px;
+}
+
+#home-link {
+    display:inline-block;
+    margin-bottom:20px;
 }
 
 .c-document {
-    padding-bottom:50px;
+    padding-bottom:50px!important;
+    padding-top: 70px;
+}
+
+.c-strategy {
+    padding-top:70px;
+}
+
+body.p-case-study {
+    background:white;
+}
+
+.c-details {
+    padding:0!important;
+}
+
+.c-details img {
+    border-radius: 10px;
+    margin:-200px 0 100px 0;
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
+}
+
+.c-outcome {
+    padding-bottom:50px!Important;
+    padding-top: 70px;
 }
 
 .c-outcome img {
-    margin:30px 0 20px 0;
+    margin:0 0 30px 0;
+}
+
+.caption {
+    font-style:italic;
+}
+
+.c-outcome .caption {
+    margin-bottom:20px;
+}
+
+#deb-homepage {
+    padding-bottom:0px;
 }
 
 body.p-case-study .p-contact h2 {
@@ -311,6 +363,46 @@ body.p-case-study .p-contact h2 {
 .c-full-img img {
     width:100%;
 }
+
+.p-case-study .p-main {
+    padding:150px 0 300px 0;
+    position: relative;
+    background-color:rgba(241, 187, 68, .4);
+}
+
+body.p-case-study .p-contact {
+    background-color:rgba(241, 187, 68, .4);
+}
+
+.animate {
+    padding:0px;
+}
+
+/*
+#cs-store-listing:before {
+
+    content:'';
+    position:absolute;
+    top:-180px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-image:url("../img/dp_main.png");
+    background-size:cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#cs-store-listing:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color:rgba(0,0,0,.4);
+}
+ */
 
 /* Mobile Styles */
 
@@ -338,7 +430,7 @@ body.p-case-study .p-contact h2 {
     }
 
     #dp-new-store img {
-        max-width:100%;
+        max-width:100%!important;
     }
 }
 
