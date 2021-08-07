@@ -221,10 +221,6 @@ a:hover {
 
 /* Case Studies */
 
-.bg-white {
-    background:white;
-}
-
 p {
     line-height:27px;
 }
@@ -233,11 +229,35 @@ body.p-case-study .container {
     max-width:800px
 }
 
+.p-t-30 {
+    padding-top: 30px;
+}
+
+.p-t-50 {
+    padding-top:50px;
+}
+
+.p-t-70 {
+    padding-top:70px;
+}
+
+.p-b-30 {
+    padding-bottom:30px;
+}
+
+.p-b-50 {
+    padding-bottom:50px;
+}
+
+.p-b-70 {
+    padding-bottom:70px;
+}
+
 body.p-case-study h2 {
     margin:0 0 25px 0;
 }
 
-body.p-case-study .bg-white {
+body.p-case-study .align-left {
     text-align:left;
 }
 
@@ -259,6 +279,10 @@ li {
 
 li + li {
     margin-top:10px;
+}
+
+li li + li {
+    margin-top:0px;
 }
 
 .p-case-study > div + div {
@@ -284,10 +308,6 @@ li + li {
 .c-video iframe {
     width:100%;
     height:400px;
-}
-
-.c-user-research {
-    padding-bottom:25px!important;
 }
 
 #whimsical {
@@ -335,6 +355,12 @@ body.p-case-study {
     box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
 }
 
+.p-case-study .intro-img img {
+    max-height:300px;
+    width:100%;
+    object-fit:cover;
+}
+
 .c-outcome {
     padding-bottom:50px!Important;
     padding-top: 70px;
@@ -346,6 +372,35 @@ body.p-case-study {
 
 .caption {
     font-style:italic;
+}
+
+.p-case-study .half {
+    width:calc(50% - 90px);
+    float:left;
+    margin:0 50px;
+    border-radius:15px;    
+}
+
+.p-case-study .half img {
+    border-radius:15px;
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
+}
+
+.p-case-study .half .caption {
+    display:block;
+    text-align: center;
+    margin-top:20px;
+}
+
+.p-case-study .half + .half {
+    margin-left:20px;
+}
+
+.break:before {
+    content:'';
+    border:1px solid #ddd;
+    display:block;
+    margin:50px 0 70px 0;
 }
 
 .c-outcome .caption {
@@ -368,6 +423,10 @@ body.p-case-study .p-contact h2 {
     padding:150px 0 300px 0;
     position: relative;
     background-color:rgba(241, 187, 68, .4);
+}
+
+.p-case-study#spar .p-main, .p-case-study#spar .p-contact {
+    background-color:rgba(140, 190, 79, .4);
 }
 
 body.p-case-study .p-contact {
@@ -431,6 +490,16 @@ body.p-case-study .p-contact {
 
     #dp-new-store img {
         max-width:100%!important;
+    }
+
+    .p-case-study .half {
+        width:calc(100% - 30px);
+        float:none;
+        margin:0 15px;
+    }
+
+    .p-case-study .half + .half {
+        margin-top:30px;
     }
 }
 
