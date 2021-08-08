@@ -67,9 +67,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a class="nav-link" href="#">Home</a></li>
+                    <li><a class="nav-link active" href="#">Home</a></li>
                     <li><a class="nav-link" id="work-link" href="#work">Work</a></li>
-                    <li><a class="nav-link" id="about-link">About</a></li>
+                    <li><a class="nav-link" id="about-link" href="#about">About</a></li>
                     <li><a class="nav-link" id="contact-link" href="#contact">Contact</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
@@ -80,8 +80,8 @@
         <div class="content" data-aos="fade-up">
           <div>
         <h2 class="cover-heading">Hi, I’m Michelle 👋</h2>
-        <h1 class="lead">A digital product designer with 8 years experience.</h1>
-            <a id="work-link" href="#work" class="btn">My Work</a>
+        <h1 class="lead p-b-30">A digital product designer with <span>8 years</span> experience.</h1>
+            <a id="work-link-2" href="#work" class="btn">My Work</a>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
                 <span class="year">2020</span>
                 <h2>Debonairs Pizza</h2>
                 <p>Transforming the home screen of an online food ordering mobile app</p>
-                <a href="case-studies/store-listing.html" class="link">View case study</a>
+                <p class="cs-link"><a href="case-studies/store-listing.html" class="link">View case study</a></p>
               </div>
             </div>
             <div class="col-md-6">
@@ -118,12 +118,12 @@
                 <span class="year">2020</span>
                 <h2>SPAR</h2>
                 <p>Adding a product search to a large supermarket chain’s website</p>
-                <a href="case-studies/product-search.html" class="link">View case study</a>
+                <p class="cs-link"><a href="case-studies/product-search.html" class="link">View case study</a></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="dribbble">
+        <div class="dribbble p-b-30">
           <strong>Some shots from my Dribbble profile:</strong>
           <div class="row">
             <div class="col-md-4 item">
@@ -140,7 +140,7 @@
       </div>
     </div>
 
-    <div class="p-about section" data-aos="fade-up" id="about" name="about">
+    <div class="p-about section p-t-100" data-aos="fade-up" id="about" name="about">
       <div class="container">
         <div class="heading">
           <h2>About Me</h2>
@@ -181,10 +181,10 @@
       </div>
     </div>
 
-    <div class="p-writing section" data-aos="fade-up">
+    <div class="p-writing section p-t-100 p-b-100" data-aos="fade-up">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 p-b-50">
             <h2>My Writing</h2>
           </div>
           <div class="post-container">
@@ -194,7 +194,7 @@
             <div class="content">
               <span class="date">2020 | Medium</span>
               <h4>How our design team uses Trello to streamline productivity</h4>
-              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@michellewalstra/how-our-design-team-uses-trello-to-streamline-productivity-8d9d7b18474b" class="link">Read</a>
+              <p class="b-link"><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@michellewalstra/how-our-design-team-uses-trello-to-streamline-productivity-8d9d7b18474b" class="link">Read</a></p>
             </div>
             </div>
           </div>
@@ -204,7 +204,7 @@
             <div class="content">
               <span class="date">2019 | Dev.To</span>
               <h4>How a positioning workshop saved our product</h4>
-              <a target="_blank" rel="noopener noreferrer" href="https://dev.to/michellesjames/how-a-positioning-workshop-saved-our-product-5hf" class="link">Read</a>
+              <p class="b-link"><a target="_blank" rel="noopener noreferrer" href="https://dev.to/michellesjames/how-a-positioning-workshop-saved-our-product-5hf" class="link">Read</a></p>
             </div>
             </div>
           </div>
@@ -214,7 +214,7 @@
                 <div class="content">
                   <span class="date">2019 | Medium</span>
                   <h4>The magic formula for productivity 🚀</h4>
-                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@michellewalstra/the-magic-formula-for-productivity-f95aa78e117d" class="link">Read</a>
+                  <p class="b-link"><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@michellewalstra/the-magic-formula-for-productivity-f95aa78e117d" class="link">Read</a></p>
                 </div>
               </div>
             </div>
@@ -226,72 +226,57 @@
       <div class="p-tools section" data-aos="fade-up">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 p-b-50">
               <h2>Tools & Tech</h2>
             </div>
-            <div class="accordion-container">
-              <div class="accordion">
-                <a class="panel-heading">
-                  <div>🎨  UI Design <span class="fa fa-plus"></span></div>
-                </a>
-                <div class="panel-body">
-                  <p>Figma</p>
-                  <p>Sketch</p>
-                  <p>Adobe Creative Suite</p>
-                  <p>Whimsical</p>
-                  <p>Miro</p>
-                  <p>Invision</p>
-                  <p>Prepo</p>
-                </div>
+            <div class="col-md-6 content">
+              <div>
+                <strong>🎨  UI Design</strong>
+                <p>Figma</p>
+                <p>Sketch</p>
+                <p>Adobe Creative Suite</p>
+                <p>Whimsical</p>
+                <p>Miro</p>
+                <p>Invision</p>
+                <p>Prepo</p>
               </div>
-              <div class="accordion">
-                <a class="panel-heading">
-                  <div>👩  User Testing <span class="fa fa-plus"></span></div>
-                </a>
-                <div class="panel-body">
-                  <p>Hotjar</p>
-                  <p>Maze</p>
-                  <p>UsablityHub</p>
-                  <p>Google Analytics</p>
-                  <p>Heap Analytics</p>
-                </div>
+              <div>
+                <strong>💻  Front-End Development</strong>
+                <p>HTML</p>
+                <p>CSS & pre-processors like SCSS</p>
+                <p>Bootstrap</p>
+                <p>Wordpress</p>
+                <p>Kentico CMS</p>
+                <p>Github</p>
+                <p>Mercurial</p>
+                <p>iOS & Android assets</p>
               </div>
-              <div class="accordion">
-                <a class="panel-heading">
-                  <div>💻  Front-End Development<span class="fa fa-plus"></span></div>
-                </a>
-                <div class="panel-body">
-                  <p>HTML</p>
-                  <p>CSS & pre-processors like SCSS</p>
-                  <p>Bootstrap</p>
-                  <p>Wordpress</p>
-                  <p>Kentico CMS</p>
-                  <p>Github</p>
-                  <p>Mercurial</p>
-                  <p>iOS & Android assets</p>
-                </div>
+            </div>
+            <div class="col-md-6 content">
+              <div>
+                <strong>👩  User Testing</strong>
+                <p>Hotjar</p>
+                <p>Maze</p>
+                <p>UsablityHub</p>
+                <p>Google Analytics</p>
+                <p>Heap Analytics</p>
               </div>
-              <div class="accordion">
-                <a class="panel-heading">
-                  <div>📂  Day-to-Day<span class="fa fa-plus"></span></div>
-                </a>
-                <div class="panel-body">
-                  <p>Slack</p>
-                  <p>Zoom</p>
-                  <p>Trello</p>
-                  <p>15Five</p>
-                  <p>Harvest</p>
-                  <p>StatusHero</p>
-                  <p>SendBoard</p>
-                  <p>Quip</p>
-                </div>
+              <div>
+                <strong>📂  Day-to-Day</strong>
+                <p>Slack</p>
+                <p>Zoom</p>
+                <p>Trello</p>
+                <p>SendBoard</p>
+                <p>Quip</p>
+                <p>15Five</p>
+                <p>Harvest</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-    <div class="p-contact section" data-aos="fade-up" id="contact">
+    <div class="p-contact section p-t-100 p-b-100" data-aos="fade-up" id="contact">
       <div class="container">
         <h2>Get in Touch</h2>
         <p>Let's create something awesome together!</p>
@@ -302,12 +287,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="js/bootstrap.min.js"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
       <script>
         function scrollToAnchor(aid){
@@ -318,6 +302,9 @@
           scrollToAnchor('about');
         });
         $("#work-link").click(function() {
+          scrollToAnchor('work');
+        });
+        $("#work-link-2").click(function() {
           scrollToAnchor('work');
         });
         $("#contact-link").click(function() {
