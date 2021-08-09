@@ -956,7 +956,7 @@ p.b-link:before {
     }
 
     .navbar-brand {
-        float:none;
+        float:none!important;
     }
 }
 
@@ -998,5 +998,19 @@ p.b-link:before {
     .p-contact {
         opacity: 1 !important;
         transform: none !Important;
+    }
+
+    .dribbble strong {
+        margin:50px 0 30px 0!important;
+    }
+
+    .container {
+        padding-left:30px!important;
+        padding-right:30px!important;
+    }
+
+    .p-about .container {
+        padding-left:15px!important;
+        padding-right:15px!important;
     }
 }
