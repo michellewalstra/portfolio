@@ -926,3 +926,77 @@ p.b-link:before {
 .p-tools .content div + div {
     margin-top: 40px;
 }
+
+@media screen and (max-width:992px) {
+    .cs .content h2 {
+        max-width:100%;
+    }
+
+    .dribbble .item + .item {
+        margin-top:40px;
+    }
+
+    .b-post {
+        max-width:400px;
+        margin:0 auto;
+    }
+
+    .p-tools .container {
+        max-width:400px;
+        margin:0 auto;
+    }
+
+    .p-tools .content + .content {
+        margin-top:30px;
+    }
+
+    .p-main .content {
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .navbar-brand {
+        float:none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .p-main h1 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    h2.cover-heading {
+        font-size: 25px !important;
+    }
+
+    h1.lead span:before {
+        background-repeat: no-repeat;
+    }
+
+    .l-item .col-md-1 {
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    .p-main > .content {
+        margin: 100px auto 0 auto !important;
+    }
+
+    .p-t-100 {
+        padding-top: 40px !important;
+    }
+
+    .p-b-30 {
+        padding-bottom: 10px !important;
+    }
+
+    .p-b-100 {
+        padding-bottom: 40px !important;
+    }
+
+    .p-contact {
+        opacity: 1 !important;
+        transform: none !Important;
+    }
+}
