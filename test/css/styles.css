@@ -472,6 +472,40 @@ body.p-case-study .p-contact h2 {
     .p-case-study .half + .half {
         margin-top:30px;
     }
+
+    .p-case-study .navbar-default .navbar-nav>li>a {
+        padding-top:0px;
+    }
+
+    .p-case-study .collapse {
+        display:inline-block;
+        border:none;
+    }
+
+    .p-case-study .p-main h1:before {
+        display:none;
+    }
+
+    .p-case-study .p-main h1 {
+        line-height:55px!important;
+    }
+
+    .p-case-study .p-main > .container {
+        margin: 70px auto 20px auto;
+    }
+
+    .c-details img {
+        max-width:100%!important;
+        margin:0 0 50px 0;
+    }
+
+    .p-case-study .p-contact {
+        padding-bottom:100px!important;
+    }
+
+    .c-video iframe {
+        height:250px;
+    }
 }
 
 .g-item img {
