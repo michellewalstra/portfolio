@@ -335,14 +335,11 @@ body.p-case-study {
 
 .c-details img {
     border-radius: 10px;
-    margin:-200px 0 100px 0;
+    margin: 0 -40px 100px -40px;
     box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
-}
-
-.p-case-study .intro-img img {
-    max-height:300px;
-    width:100%;
-    object-fit:cover;
+    max-height: 400px;
+    width: calc(100% + 80px);
+    object-fit: cover;
 }
 
 .c-outcome {
@@ -404,17 +401,7 @@ body.p-case-study .p-contact h2 {
 }
 
 .p-case-study .p-main {
-    padding:150px 0 300px 0;
     position: relative;
-    background-color:rgba(241, 187, 68, .4);
-}
-
-.p-case-study#spar .p-main, .p-case-study#spar .p-contact {
-    background-color:rgba(140, 190, 79, .4);
-}
-
-body.p-case-study .p-contact {
-    background-color:rgba(241, 187, 68, .4);
 }
 
 .animate {
@@ -809,6 +796,12 @@ a.nav-link.active:before {
     background-repeat: no-repeat;
 }
 
+.p-case-study a.nav-link.active:before {
+    background-image: url(../img/u-back.png);
+    width: 100%;
+    left:0;
+}
+
 p.cs-link {
     position: relative;
     display: inline-block;
@@ -1013,4 +1006,55 @@ p.b-link:before {
         padding-left:15px!important;
         padding-right:15px!important;
     }
+}
+
+.p-case-study .p-main {
+    background:none!Important;
+}
+
+.p-case-study .p-main h1 {
+    font-weight:700!important;
+    position: relative;
+    display:inline-block;
+}
+
+.p-case-study .p-main h1:before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    z-index: -1;
+    left: -10px;
+    height: 21px;
+    width: 107%;
+    background-size: 100%;
+    background-image: url(../img/u-dp.png);
+    background-repeat: no-repeat;
+}
+
+body#spar.p-case-study .p-main h1:before {
+    background-image: url(../img/u-spar.png);
+}
+
+.p-case-study .p-main p {
+    text-transform:inherit!important;
+}
+
+.p-case-study .p-main > .container {
+    margin:120px auto 70px auto;
+}
+
+.p-case-study .c-details img {
+    max-width: calc(100% + 80px);
+}
+
+.p-case-study p {
+    font-size:18px;
+}
+
+.p-case-study h2 {
+    font-weight:700!important;
+}
+
+.c-update h1 {
+    font-weight:700;
 }
