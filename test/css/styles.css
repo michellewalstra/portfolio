@@ -624,6 +624,17 @@ strong {
     object-fit:cover!important;
     max-width:100%;
     border-radius:10px;
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
+
+.dribbble .item img {
+    transition: all 0.3s ease;
+}
+
+.dribbble .item img:hover {
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.2);
+    margin-top:-10px;
 }
 
 .cs a.link {
@@ -632,6 +643,10 @@ strong {
     font-size:20px;
     z-index: 2;
     position: relative;
+}
+
+.cs:hover a.link {
+    text-shadow:0px 10px 20px rgba(224, 212, 248, 1);
 }
 
 .heading h2 {
@@ -703,6 +718,10 @@ h4 {
     font-size:20px;
     color:black;
     position: relative;
+}
+
+.b-post:hover .b-link a {
+    text-shadow:0px 10px 20px rgba(224, 212, 248, 1);
 }
 
 .p-tools h2 {
