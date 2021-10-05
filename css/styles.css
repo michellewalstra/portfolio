@@ -1108,3 +1108,37 @@ body#spar.p-case-study .p-main h1:before {
 .c-update h1 {
     font-weight:700;
 }
+
+.problem-statement {
+    background: #f3f3f3;
+    padding: 5px 30px 15px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.problem-statement h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.store-gif {
+    padding-left:30px;
+    padding-right:30px;
+    text-align:center!important;
+}
+
+.store-gif img {
+    max-width: 1100px;
+}
+
+.maze {
+    box-shadow: 1px 5px 18px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 1px 5px 18px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 5px 18px 0px rgba(0,0,0,0.15);
+    margin:40px 0 60px 0;
+}
+
+.user-research-spar {
+    border-radius:15px;
+    margin-top:50px;
+}
